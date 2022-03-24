@@ -1,0 +1,13 @@
+2.)HTTP1.1 and HTTP2
+                          HTTP is a communications protocol used to connect to Web servers on the Internet or on a local network
+In HTTP1.1 for every TCP connection there could be multiple requests and responses where the client can request several resources from the server at once.In HTTP2 ,it Uses multiplexing, where over a single TCP connection resources to be delivered are interleaved and arrive at the client almost at the same time. HTTP/1.1, which keep all requests and responses in plain text format, HTTP/2 uses the binary framing layer to encapsulate all messages in binary format. This makes HTTP2 runs faster than HTTP1.1.
+
+3.)objects and its internal representation:
+                               objects are nothing but collection of key and value pairs.they are used to hold datas like personal details of person or about a vehicle etc.we can perform add ,remove and read datas in object.
+example :
+var person = {
+  firstName: "guvi",
+  lastName: "zen",
+  age: 50,
+};  
+here person is the name of the object and firstName,last name,age are the keys in object and "guvi","zen",50 are the values in object person.
